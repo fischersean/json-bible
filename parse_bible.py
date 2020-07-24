@@ -17,8 +17,8 @@ def parseline(bible_line: str) -> Dict[str, str]:
 
     return {
         "Book": parts[0],
-        "Chapter": parts[1],
-        "Verse": parts[2],
+        "Chapter": int(parts[1]),
+        "Verse": int(parts[2]),
         "Text": parts[3][1:-1],
     }
 
