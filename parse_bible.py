@@ -41,7 +41,7 @@ def tojson(bible: str, booklu_path: str):
             continue
         tmpd = parseline(line)
         # breakpoint()
-        tmpd["Long BName"] = blu[tmpd["Book"].lower()]
+        tmpd["Book"] = blu[tmpd["Book"].lower()]
         tree.append(tmpd)
 
     return json.dumps(tree)
