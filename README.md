@@ -8,4 +8,4 @@ There are no requirements, just pure Python std lib
 
 ## Credits
 
-The original King James text of the Bible comes from ![sacred-texts.com](sacred-texts.com).
+The original King James text of the Bible comes from [sacred-texts.com](sacred-texts.com).
